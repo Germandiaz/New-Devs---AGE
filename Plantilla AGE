@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title> Plantilla Age</title>
+	<meta charset="utf-8" />
+	<meta name="descripcion" content="Plantilla Age con responsive design" />
+	<link rel="stylesheet" href="${resource(dir: 'css', file: 'estilos - responsive.css')}" type="text/css">
+	<link rel="stylesheet" href="C:/grails/src/Ageplantillas/web-app/css/estilos ageformdoscolumn.css" />
+	<!-- Detecta cuando se abre el sitio con nabegadores q no soportan HTML5 y se llama el archivo desde la web porque se esta actualizando constantemente -->
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+<header>
+    <h1> <a href="www.google.com" target="_blank"> logo </a> </h1>
+		<nav>
+			<ul>
+				<li><a href="www.google.com" target="_blank">Inicio</a></li>
+				<li><a href="www.google.com" target="_blank">Acerca</a></li>
+				<li><a href="www.google.com" target="_blank">Servicios</a></li>
+				<li><a href="www.google.com" target="_blank">Trabajos</a></li>
+				<li><a href="www.google.com" target="_blank">Contacto</a></li>
+			</ul>
+		</nav>
+	
+	</header>
+
+<section id="contenido">
+	<section id="principal">
+		
+			<article id="menu-lateral">
+				<nav>
+						<ul>
+							<li><a href="www.google.com" target="_blank">Inicio</a></li>
+							<li><a href="www.google.com" target="_blank">Acerca</a></li>
+							<li><a href="www.google.com" target="_blank">Servicios</a></li>
+							<li><a href="www.google.com" target="_blank">Trabajos</a></li>
+							<li><a href="www.google.com" target="_blank">Contacto</a></li>
+						</ul>
+				</nav>
+			</article>
+	</section>
+	<aside>
+			<section id="formulario">
+				<h2>contactános</h2>
+				<article id="info-contacto">
+					<p>
+						Email:
+						<span class="datos-contacto">german@hotmail.com</span>
+						
+						Móvil:
+						<span class="datos-contacto">52+5534455433</span>
+						Web:
+						<span class="datos-contacto">Enlace</span>
+						Dirección:
+						<span class="datos-contacto">cra 54</span>
+						Social Media:
+						<span class="datos-contacto"></span>
+						
+					</p>
+				</article>
+					<article id="contactanos">
+						<form>
+							<fieldset>
+								<legend>Comentario formulario</legend> 
+									<div id="firstcolumnaform">
+										<div>
+											<label for="nombre">Nombre:</label>
+											<input type="text" id="nombre" class="fade" name="nombre_txt" required/>
+										</div>
+										<div>
+											<label for="email">Email:</label>
+											<input type="email" id="email" class="fade" name="email_txt" required/>
+										</div>
+										
+									</div>
+									<div id="segundacolumnaform">
+										<div>
+											<label for="asunto">Asunto:</label>
+											<input type="text" id="asubto" class="fade" name="asunto_txt" required/>
+										</div>
+										<div>
+											<label for="comentario">Comentario:</label>
+											<textarea id="comentarios" class="fade" name="comentarios_txa" cols="31" rows=5" required> </textarea>
+										</div>
+									</div>
+										<div>
+											<input type="submit" id="enviar" class="fade" name="enviar_btn" value="enviar" />
+										</div>
+							</fieldset>		
+							
+						</form>
+					</article>
+			</section>
+			<section id="mapa">
+				<iframe width="500" height="535" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Ruta+N,+Medell%C3%ADn+-+Antioquia,+Colombia&amp;aq=0&amp;oq=ruta+n&amp;sll=6.235925,-75.575137&amp;sspn=0.759026,0.392761&amp;g=Medell%C3%ADn+-+Antioquia,+Colombia&amp;ie=UTF8&amp;hq=Ruta+N,+Medell%C3%ADn+-+Antioquia,+Colombia&amp;t=m&amp;ll=6.265278,-75.566824&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br /><small><a href="https://maps.google.es/maps?f=q&amp;source=embed&amp;hl=es&amp;geocode=&amp;q=Ruta+N,+Medell%C3%ADn+-+Antioquia,+Colombia&amp;aq=0&amp;oq=ruta+n&amp;sll=6.235925,-75.575137&amp;sspn=0.759026,0.392761&amp;g=Medell%C3%ADn+-+Antioquia,+Colombia&amp;ie=UTF8&amp;hq=Ruta+N,+Medell%C3%ADn+-+Antioquia,+Colombia&amp;t=m&amp;ll=6.265278,-75.566824&amp;spn=0.006295,0.006295" style="color:#0000FF;text-align:left" target="_blank">Ver mapa más grande</a></small>
+			</section>
+	</aside>
+</section>
+<footer>
+footer <a rel="author" href="http://twitter.com/bextlan" target="_blank">@bextlan</a>
+</footer>
+
+</body>
+</html>
