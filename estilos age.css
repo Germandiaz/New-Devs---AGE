@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+article,figcaption,figure,footer,header,hgroup,nav,section{
+	display:block;
+}
+
+body {
+
+	background:  #212121;
+	color: #FFF;
+	font-family: Helvetica;
+	font-size: 1em;
+}
+
+a{
+	color: #57ABB8;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#F60;
+}
+
+figcaption {
+	font-size: 0.85em;
+	padding: 0.25em;
+	text-aling: Center;
+}
+
+#firstcolumnaform, #segundacolumnaform{
+	display: inline-block;
+	vertical-align: top;
+	min-width: 47%;
+	max-width: 30%;
+}
+
+form{
+	width: 100%;
+}
+
+form div{
+	margin: .5em;
+}
+
+
+/* flexibilidad en las imágenes, con el estilo ma-width ajusta el tamaño de la imagen */
+img, video{
+	max-width: 100%;
+}
+
+textarea {
+	resize: none;
+}
+
+iframe {
+ border-radius: .5em;
+ min-width: 95%;
+ max-width: 0%;
+}
+
+input[type="email"], input[type="text"], textarea {
+	background: #EEE;
+	border-radius: .25em;
+	color: #F60;
+	font-size: 1em;
+	padding: .25em;
+	width: 95%;
+}
+
+input[type="email"]:focus, input[type="text"]:focus, textarea:focus {
+	background: #C6ECF9;
+}
+input[type="submit"]:hover{
+	background: #7BBFD5;
+	border-radius: .25em 0;
+	color: #000;
+	cursor: pointer;
+}
+label {
+	cursor: pointer;
+}
+
+legend{
+	color: #F90;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+input[type="submit"] {
+	background: #F90;
+	border-radius: 0 .25em;
+	color: #500;
+	font-size: 1.25em;
+	padding: .25em;
+}
+
+
+header, section#contenido, footer , nav{
+	background: #FFF;
+	
+	max-width: 95%;
+	
+}
+footer, nav{
+text-align: center;
+}
+
+header h1, nav{
+	
+	max-width: 100%;
+	vertical-align: middle;
+	
+}
+
+nav ul{
+	list-style:none;
+	padding: 0.1em 0.1em 0.1em 0;
+	
+}
+header nav li {
+	display: inline-block;
+	padding: 0.1em;
+	vertical-align:top;
+	
+}
+nav a{ 
+	background: #FFF;
+	border: 0.1em solid #57ABB8;
+	border-radius: 0.25em;
+	color: #F60;
+	display: block;
+	font-size: 1.4em;
+	padding: 0.2em;
+	margin: 0.4em 0.1em 0.1em 0;
+	/* estilo transición color- movimiento - forma, no son estandares*/
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	
+}
+
+nav a:hover {
+	background: #212121;
+	border: 0.1em dashed #F60;
+	border-radius: 0 0.5em 0 0.05em;
+	color: #FFF;
+	-ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}	
+
+/* estilos para section*/
+
+section#principal, aside{
+	background: #1E6381;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 1em auto;
+	max-width: 100%;
+	padding: 0.25em;
+	vertical-align: top;
+	min-width: 25%;
+	
+}
+
+section#principal nav{
+	text-align: left;
+}
+
+article#menu-lateral {
+	border-radius: 0.5em;
+	margin: 0.25em 0.25em 0.25em 0;
+	padding: 0.5em 0.5em 0.5em 0;
+	text-align: left;
+	width: 95%;
+}
+aside {
+	max-width: 73%;
+	min-width: 65%;
+	padding: 1.5em;
+}
+
+aside img {
+	width:60%;
+}
+
+footer{
+	color: #000;
+	font-size: 0.85em;
+	padding: 0.75em 0;
+}
+
